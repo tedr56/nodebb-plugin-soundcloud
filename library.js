@@ -5,7 +5,7 @@
 		embed = '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/$1/$2"></iframe>';
 
 
-	Vimeo.parse = function(postContent, callback) {
+	SoundCloud.parse = function(postContent, callback) {
 		// modified from http://stackoverflow.com/questions/7168987/
 		postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:soundcloud\.com)\/?(.+)\/?(.+)<\/a>/g, embed);
 		callback(null, postContent);
