@@ -2,7 +2,7 @@
 	"use strict";
 
 	var SoundCloud = {},
-		embed = '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/$1"></iframe>';
+		embed = '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https://soundcloud.com/$1"></iframe>';
 
 
 	SoundCloud.parse = function(postContent, callback) {
