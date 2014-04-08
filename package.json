@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-soundcloud",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NodeBB SoundCloud Plugin",
   "main": "library.js",
   "scripts": {
