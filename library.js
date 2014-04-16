@@ -7,7 +7,7 @@
 
 	SoundCloud.parse = function(postContent, callback) {
 		// modified from http://stackoverflow.com/questions/7168987/
-		postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:soundcloud\.com)\/?(.+)<\/a>/g, embed);
+		postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:soundcloud\.com)\/?(.+)">.+<\/a>/g, embed);
 		callback(null, postContent);
 	};
 
