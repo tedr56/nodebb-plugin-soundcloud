@@ -10,5 +10,4 @@
 	"staticDirs": {
         "css": "./static"
     }
-    "minver": "0.4.3"
 }
