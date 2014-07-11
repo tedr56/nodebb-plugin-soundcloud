@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-soundcloud",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "NodeBB SoundCloud Plugin",
   "main": "library.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "nodebb",
     "plugin",
     "soundcloud",
-    "video",
+    "audio",
     "embed"
   ],
   "author": {
@@ -23,10 +23,10 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/vimeo/nodebb-plugin-soundcloud/issues"
+    "url": "https://github.com/tedr56/nodebb-plugin-soundcloud/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-soundcloud@0.0.1",
-  "_from": "nodebb-plugin-soundcloud@~0.0.1"
+  "_id": "nodebb-plugin-soundcloud@0.1.0",
+  "_from": "nodebb-plugin-soundcloud@~0.1.0"
 }
