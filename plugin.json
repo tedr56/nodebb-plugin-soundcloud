@@ -10,4 +10,7 @@
 	"staticDirs": {
         "css": "./static"
     }
+    "nbbpm": {
+        "compatibility": "^0.5.0"
+    }
 }
