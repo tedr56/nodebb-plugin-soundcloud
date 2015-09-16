@@ -5,7 +5,8 @@
 	"url": "https://github.com/tedr56/nodebb-plugin-soundcloud",
 	"library": "./library.js",
 	"hooks": [
-		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
+		{ "hook": "filter:parse.post", "method": "parsePost", "priority": 4 },
+		{ "hook": "filter:parse.post", "method": "parsePost", "priority": 6 }
 	],
 	"staticDirs": {
         "css": "./static"
